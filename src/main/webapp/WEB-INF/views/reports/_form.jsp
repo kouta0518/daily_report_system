@@ -31,3 +31,11 @@
 <input type="hidden" name="${AttributeConst.REP_ID.getValue()}" value="${report.id}" />
 <input type="hidden" name="${AttributeConst.TOKEN.getValue()}" value="${_token}" />
 <button type="submit">投稿</button>
+
+<label for="start_time">出勤時間</label><br />
+<input type="time" name="start_time" value="$" id="start_time"/>
+<br /><br />
+
+<label for="end_time">退勤時間</label><br />
+<input type="time" name="end_time" value="" id="end_time"/>
+<br /><br />

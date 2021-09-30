@@ -42,6 +42,8 @@ public enum AttributeConst {
     REP_COUNT("reports_count"),
     REP_ID("id"),
     REP_DATE("report_date"),
+    REP_START("start_time"),
+    REP_END("end_time"),
     REP_TITLE("title"),
     REP_CONTENT("content");
 
