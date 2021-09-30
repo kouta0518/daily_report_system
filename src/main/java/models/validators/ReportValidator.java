@@ -74,7 +74,7 @@ public class ReportValidator {
 
     private static String validateStart_time(String start_time) {
         if (start_time == null || start_time.equals("")) {
-            return MessageConst.E_NOTITLE.getMessage();
+            return MessageConst.E_NOSTART.getMessage();
         }
 
         //入力値がある場合は空文字を返却
@@ -83,7 +83,7 @@ public class ReportValidator {
 
     private static String validateEnd_time(String end_time) {
         if (end_time == null || end_time.equals("")) {
-            return MessageConst.E_NOTITLE.getMessage();
+            return MessageConst.E_NOEND.getMessage();
         }
 
         //入力値がある場合は空文字を返却
